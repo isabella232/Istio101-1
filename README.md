@@ -207,7 +207,7 @@ This means that Istio will retry the request three times before giving up, and w
 
 Apply the rule:
 
-`istioctl create -f ./configs/istio/routing-2.yaml `
+`istioctl replace -f ./configs/istio/routing-2.yaml `
 
 And refresh the page:
 
